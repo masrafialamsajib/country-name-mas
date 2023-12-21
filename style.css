@@ -1,0 +1,55 @@
+/* --------------------------------------------
+Background Image Preserved By WallpaperAccess
+
+https://wallpaperaccess.com/country-flag
+
+https://wallpaperaccess.com/full/766605.jpg
+
+---------------------------------------------- */
+
+.header {
+    font-size: 40px;
+    font-weight: 500;
+    color: #e6e6e6;
+    text-align: center;
+    padding-top: 50px;
+}
+.container {
+    background-image: url(/images/background.jpg);
+    width: auto;
+    height: 100vh;
+}
+
+.search-container {
+    background-color: #ffffff;
+    width: 80vw;
+    max-width: 37.5em;
+    padding: 3em 2.5em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.62em;
+    box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+}
+.search-content {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25em;
+}
+.search-content button {
+    font-size: 1em;
+    background-color: #434242;
+    color: #ffffff;
+    padding: 0.8em 0;
+    border: none;
+    border-radius: 1.5em;
+}
+.search-content input {
+    font-size: 1em;
+    padding: 0 0.62em;
+    border: none;
+    border-bottom: 2px solid #434242;
+    outline: none;
+    color: #e6e6e6;
+}

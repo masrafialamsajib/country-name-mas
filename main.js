@@ -1,0 +1,1 @@
+let searchBtn = document.getElementById("search-btn")
