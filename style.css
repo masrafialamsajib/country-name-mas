@@ -18,7 +18,7 @@ https://wallpaperaccess.com/full/766605.jpg
     font-family: "Poppins", sans-serif;
   }
   body {
-    background-image: url(/images/background.jpg);
+    background-image: url(./images/background.jpg);
     background-repeat: no-repeat;
     width: auto;
     height: 100vh;
