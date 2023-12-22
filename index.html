@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Country Info</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <section class="container">
-        <h1 class="header">Country Information</h1>
-        <div class="search-container">
-            <div class="search-content">
-                <input type="text" id="country-inp" placeholder="Search for a country..."/>
-            <button id="search-btn">Search</button>
-            </div>
-            <div id="result"></div>
-        </div>
-    </section>
-
-
-    <!---------------- JavaScript ------------------->
-    <link rel="stylesheet" href="main.js">
-</body>
+    <!--Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- ----Favicon--- -->
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    
+      <h1>Country Information</h1>
+    <div class="container"></div>
+      <div class="container">
+      <div class="search-wrapper">
+        <input
+          type="text"
+          id="country-inp"
+          placeholder="Enter a country name here..."
+        />
+        <button id="search-btn">Search</button>
+      </div>
+      <div id="result"></div>
+    </div>
+      <p class="footer-text">&copy; demo page created by M>A>S</p>
+    <!-- Script -->
+    <script src="main.js"></script>
+  </body>
 </html>
